@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="assets/img/icons/icon-48x48.png" />
 
-    <title> Admin | @yield('title')</title>
+    <title> Next Flight courier | Admin | @yield('title')</title>
 
     <link href="{{ asset('admin/css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -26,8 +26,8 @@
     <div class="wrapper">
         <nav id="sidebar" class="sidebar js-sidebar">
             <div class="sidebar-content js-simplebar">
-                <a class="sidebar-brand" href="dashboard.php">
-                    <span class="align-middle">KP Admin</span>
+                <a class="sidebar-brand" href="{{ route('admin.dashboard') }}">
+                    <span class="align-middle">Next Flight courier</span>
                 </a>
                 <ul class="sidebar-nav">
                     <li class="sidebar-header">

@@ -3,19 +3,18 @@
     <div class="col-sm-10 col-md-8 col-lg-4 mx-auto d-table h-100">
         <div class="d-table-cell align-middle">
             <div class="text-center mt-4">
-                <h1 class="h2">Welcome back</h1>
-                <p class="lead">
+                <h1 class="h2">Welcome back Next Flight courier</h1>
+                {{-- <p class="lead">
                     Sign in to your account to continue
-                </p>
+                </p> --}}
             </div>
             <div class="card">
                 <div class="card-body">
                     <div class="m-sm-4">
-                        {{-- <div class="text-center">
-                            <img src="uploads/logo/logo-file-1632937315.jpg" alt="Site Logo" class="img-fluid rounded-circle"
-                                width="132" height="132" />
-                        </div> --}}
-                        <form action="{{ route('admin.make.login') }}" method="POST" >
+                        <div class="text-center">
+                            <img src="{{ asset('logo.jpeg') }}" alt="Site Logo" class=""  />
+                        </div>
+                        <form action="{{ route('admin.make.login') }}" method="POST" class="mt-4" >
                             @csrf
                             <div class="mb-3">
                                 <label class="form-label">Username</label>
