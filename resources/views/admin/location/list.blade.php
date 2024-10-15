@@ -23,6 +23,8 @@
                         <table class="table table-hover">
                             <thead>
                                 <tr>
+                                    <th>From</th>
+                                    <th>To</th>
                                     <th>Location Name</th>
                                     <th>Parsl Name</th>
                                     <th>Date Created</th>

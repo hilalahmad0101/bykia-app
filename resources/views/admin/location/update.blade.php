@@ -18,6 +18,16 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-3">
+                                        <label class="form-label" for="from">From</label>
+                                        <input type="text" class="form-control" id="from"
+                                            placeholder="Enter From"  value="{{ $location->from }}"  name="from">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="to">To</label>
+                                        <input type="text" class="form-control" id="to"
+                                            placeholder="Enter To"  value="{{ $location->to }}" name="to">
+                                    </div>
+                                    <div class="mb-3">
                                         <label class="form-label" for="location_name">Location Name</label>
                                         <input type="text" class="form-control" value="{{ $location->location_name }}" id="location_name"
                                             placeholder="Enter Location Name" name="location_name">

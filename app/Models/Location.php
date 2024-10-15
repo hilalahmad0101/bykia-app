@@ -11,6 +11,8 @@ class Location extends Model
 
     protected $table = "locations";
     protected $fillable = [
+        'from',
+        'to',
         'location_name',
         'location',
         'parsl_name',
