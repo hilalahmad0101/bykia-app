@@ -34,6 +34,8 @@
                             <tbody>
                                 @foreach ($locations as $location)
                                     <tr>
+                                        <td>{{ $location->from }}</td>
+                                        <td>{{ $location->to }}</td>
                                         <td>{{ $location->location_name }}</td>
                                         <td>{{ $location->parsl_name }}</td>
                                         <td>{{ date('Y-m-d',strtotime($location->created_at)) }}</td>
